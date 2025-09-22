@@ -16,21 +16,24 @@ const Navigation = () => {
   }, [])
 
   const navLinks = [
-    { href: '#problem', label: 'The Problem' },
-    { href: '#solution', label: 'Our Solution' },
+    { href: '#problem', label: 'Problem' },
+    { href: '#solution', label: 'Solution' },
     { href: '#impact', label: 'Impact' },
+    { href: '#sustainability', label: 'Sustainability' },
     { href: '#investment', label: 'Investment' },
     { href: '#team', label: 'Team' },
+    { href: '#testimonials', label: 'Testimonials' },
+    { href: '#faq', label: 'FAQ' },
     { href: '#contact', label: 'Contact' },
   ]
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Droplet className="h-8 w-8 text-primary" />
-            <span className="font-bold text-xl">Dadaqua Innovation</span>
+            <span className="font-bold text-xl text-gray-900">Dadaqua Innovation</span>
           </div>
 
           <div className="hidden md:flex space-x-8">
@@ -38,9 +41,10 @@ const Navigation = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-gray-700 hover:text-primary transition-colors font-medium text-sm relative group"
               >
                 {link.label}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
           </div>

@@ -117,28 +117,68 @@ const Solution = () => {
           viewport={{ once: true }}
           className="bg-gray-50 rounded-2xl p-8 mt-12"
         >
-          <h3 className="text-2xl font-bold mb-6 text-center">System Components</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <h3 className="text-2xl font-bold mb-6 text-center">Technical Specifications</h3>
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="text-center">
               <div className="bg-white rounded-lg p-4 mb-4 shadow-md">
                 <Sun className="h-16 w-16 text-solar mx-auto mb-2" />
-                <h4 className="font-semibold">Solar Arrays</h4>
+                <h4 className="font-semibold">Solar Panel System</h4>
               </div>
-              <p className="text-sm text-gray-600">High-efficiency panels with 25+ year lifespan</p>
+              <div className="text-left text-sm text-gray-600 space-y-1">
+                <p><strong>Capacity:</strong> 50-100 kW per installation</p>
+                <p><strong>Panel Type:</strong> Monocrystalline silicon</p>
+                <p><strong>Efficiency:</strong> 20-22% module efficiency</p>
+                <p><strong>Warranty:</strong> 25-year performance guarantee</p>
+                <p><strong>Mounting:</strong> Ground-mounted tracking system</p>
+              </div>
             </div>
             <div className="text-center">
               <div className="bg-white rounded-lg p-4 mb-4 shadow-md">
                 <Droplet className="h-16 w-16 text-primary mx-auto mb-2" />
-                <h4 className="font-semibold">Water Pumps</h4>
+                <h4 className="font-semibold">Water Pump System</h4>
               </div>
-              <p className="text-sm text-gray-600">Solar-compatible submersible pumps</p>
+              <div className="text-left text-sm text-gray-600 space-y-1">
+                <p><strong>Type:</strong> Submersible centrifugal pumps</p>
+                <p><strong>Capacity:</strong> 20-50 m³/hour flow rate</p>
+                <p><strong>Head:</strong> Up to 100m pumping height</p>
+                <p><strong>Motor:</strong> Permanent magnet synchronous</p>
+                <p><strong>Controller:</strong> MPPT solar pump inverter</p>
+              </div>
             </div>
             <div className="text-center">
               <div className="bg-white rounded-lg p-4 mb-4 shadow-md">
                 <Leaf className="h-16 w-16 text-green-600 mx-auto mb-2" />
-                <h4 className="font-semibold">Agrivoltaic Gardens</h4>
+                <h4 className="font-semibold">Agrivoltaic Design</h4>
               </div>
-              <p className="text-sm text-gray-600">Community farming under solar panels</p>
+              <div className="text-left text-sm text-gray-600 space-y-1">
+                <p><strong>Panel Height:</strong> 3-4m above ground</p>
+                <p><strong>Spacing:</strong> 6-8m between panel rows</p>
+                <p><strong>Crop Area:</strong> 60-70% of total land use</p>
+                <p><strong>Irrigation:</strong> Drip system using pumped water</p>
+                <p><strong>Monitoring:</strong> Soil moisture & climate sensors</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl p-6">
+            <h4 className="text-lg font-semibold mb-4 text-center">System Performance Metrics</h4>
+            <div className="grid md:grid-cols-4 gap-4 text-center">
+              <div>
+                <div className="text-2xl font-bold text-primary">5.5 kWh/m²</div>
+                <p className="text-sm text-gray-600">Daily solar irradiation (Dadaab avg)</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-primary">12-14 hrs</div>
+                <p className="text-sm text-gray-600">Daily pumping operation</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-primary">500-1000m³</div>
+                <p className="text-sm text-gray-600">Daily water output per system</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-primary">95%+</div>
+                <p className="text-sm text-gray-600">Expected system uptime</p>
+              </div>
             </div>
           </div>
         </motion.div>
@@ -157,9 +197,11 @@ const Solution = () => {
               <div className="text-3xl font-bold mb-2">$540,000</div>
               <p className="text-gray-600">Annual operational cost</p>
               <ul className="mt-4 text-left text-sm text-gray-700 space-y-1">
-                <li>• Fuel costs: $45,000/month</li>
-                <li>• Maintenance: High</li>
-                <li>• Lifespan: 5-10 years</li>
+                <li>• Diesel fuel: $45,000/month</li>
+                <li>• Generator maintenance: $5,000/month</li>
+                <li>• Limited pumping hours (8-10/day)</li>
+                <li>• Frequent breakdowns & repairs</li>
+                <li>• Equipment lifespan: 5-10 years</li>
               </ul>
             </div>
             <div className="bg-white rounded-lg p-6">
@@ -167,9 +209,11 @@ const Solution = () => {
               <div className="text-3xl font-bold mb-2">$0</div>
               <p className="text-gray-600">Annual fuel cost</p>
               <ul className="mt-4 text-left text-sm text-gray-700 space-y-1">
-                <li>• One-time investment</li>
-                <li>• Maintenance: Minimal</li>
-                <li>• Lifespan: 25+ years</li>
+                <li>• No fuel costs (solar powered)</li>
+                <li>• Minimal maintenance: $500/month</li>
+                <li>• Extended pumping hours (12-14/day)</li>
+                <li>• High reliability (95%+ uptime)</li>
+                <li>• Equipment lifespan: 25+ years</li>
               </ul>
             </div>
           </div>

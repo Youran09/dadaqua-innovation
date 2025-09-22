@@ -9,7 +9,7 @@ const Problem = () => {
       icon: <Droplet className="h-8 w-8 text-red-500" />,
       value: '10L',
       label: 'Daily water per person',
-      description: '50% below UN minimum',
+      description: '50% of UN minimum (20L standard)',
     },
     {
       icon: <DollarSign className="h-8 w-8 text-red-500" />,
@@ -46,7 +46,8 @@ const Problem = () => {
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             The world's largest refugee camp faces severe water scarcity,
-            forcing families to survive on half the UN's minimum standard
+            forcing families to survive on only 10L daily - half the UN's 20L minimum standard.
+            Diesel dependency limits pumping hours and drives up operational costs.
           </p>
         </motion.div>
 
@@ -80,44 +81,44 @@ const Problem = () => {
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-semibold text-lg mb-2">Current System:</h4>
+              <h4 className="font-semibold text-lg mb-2">Current System Challenges:</h4>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  Diesel generators power water pumps
+                  Diesel generators power water pumps (expensive & unreliable)
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  $1 per 1,000 liters operational cost
+                  High operational costs limit water availability
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  Limited pumping hours (fuel rationing)
+                  Limited pumping hours due to fuel rationing
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  High maintenance requirements
+                  Aid funding cuts worsen the water crisis
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-lg mb-2">Impact:</h4>
+              <h4 className="font-semibold text-lg mb-2">Human Impact:</h4>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  Women & children spend hours collecting water
+                  Women & children spend 3-4 hours daily collecting water
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  Health issues from inadequate water supply
+                  Health risks from inadequate water (hygiene, dehydration)
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  Limited agricultural opportunities
+                  No irrigation means food insecurity persists
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">•</span>
-                  Funds diverted from other essential services
+                  UN budget constraints reduce essential services
                 </li>
               </ul>
             </div>
