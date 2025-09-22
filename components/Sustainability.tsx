@@ -30,7 +30,7 @@ const Sustainability = () => {
     {
       icon: <Building className="h-12 w-12" />,
       title: 'Urban Integration',
-      description: 'Alignment with Kenya\'s vision for Dadaab',
+      description: 'Alignment with Kenya's vision for Dadaab',
       points: [
         'Infrastructure development',
         'Economic integration',

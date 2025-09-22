@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
             <p className="mb-4 text-sm">
               Transforming lives through sustainable water solutions in the Dadaab refugee camp.
-              Together, we\'re building a water-secure future for 280,000 refugees.
+              Together, we're building a water-secure future for 280,000 refugees.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (

@@ -129,7 +129,7 @@ const Team = () => {
         >
           <h3 className="text-2xl font-bold mb-4">Join Our Network</h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            We\'re always looking for partners who share our vision of sustainable
+            We're always looking for partners who share our vision of sustainable
             development and community empowerment
           </p>
           <button className="px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-light transition-colors font-semibold">

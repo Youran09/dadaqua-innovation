@@ -41,11 +41,11 @@ const Contact = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Let\'s <span className="gradient-text">Connect</span>
+            Let's <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Ready to invest in sustainable water solutions? Have questions about our project?
-            We\'d love to hear from you.
+            We'd love to hear from you.
           </p>
         </motion.div>
 
